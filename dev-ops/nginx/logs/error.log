@@ -1,0 +1,389 @@
+2023/05/01 06:41:35 [notice] 1#1: using the "epoll" event method
+2023/05/01 06:41:35 [notice] 1#1: nginx/1.23.3
+2023/05/01 06:41:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/01 06:41:35 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2023/05/01 06:41:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/01 06:41:35 [notice] 1#1: start worker processes
+2023/05/01 06:41:35 [notice] 1#1: start worker process 23
+2023/05/01 06:41:35 [notice] 1#1: start worker process 24
+2023/05/01 06:41:35 [notice] 1#1: start worker process 25
+2023/05/01 06:41:35 [notice] 1#1: start worker process 26
+2023/05/01 06:41:35 [notice] 1#1: start worker process 27
+2023/05/01 08:49:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/01 08:49:04 [notice] 24#24: gracefully shutting down
+2023/05/01 08:49:04 [notice] 24#24: exiting
+2023/05/01 08:49:04 [notice] 25#25: gracefully shutting down
+2023/05/01 08:49:04 [notice] 25#25: exiting
+2023/05/01 08:49:04 [notice] 27#27: gracefully shutting down
+2023/05/01 08:49:04 [notice] 23#23: gracefully shutting down
+2023/05/01 08:49:04 [notice] 23#23: exiting
+2023/05/01 08:49:04 [notice] 26#26: gracefully shutting down
+2023/05/01 08:49:04 [notice] 24#24: exit
+2023/05/01 08:49:04 [notice] 25#25: exit
+2023/05/01 08:49:04 [notice] 27#27: exiting
+2023/05/01 08:49:04 [notice] 23#23: exit
+2023/05/01 08:49:04 [notice] 26#26: exiting
+2023/05/01 08:49:04 [notice] 26#26: exit
+2023/05/01 08:49:04 [notice] 27#27: exit
+2023/05/01 08:49:04 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/05/01 08:49:04 [notice] 1#1: worker process 25 exited with code 0
+2023/05/01 08:49:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/01 08:49:04 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/05/01 08:49:04 [notice] 1#1: worker process 23 exited with code 0
+2023/05/01 08:49:04 [notice] 1#1: worker process 24 exited with code 0
+2023/05/01 08:49:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/01 08:49:04 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/05/01 08:49:04 [notice] 1#1: worker process 26 exited with code 0
+2023/05/01 08:49:04 [notice] 1#1: worker process 27 exited with code 0
+2023/05/01 08:49:04 [notice] 1#1: exit
+2023/05/01 08:49:04 [notice] 1#1: using the "epoll" event method
+2023/05/01 08:49:04 [notice] 1#1: nginx/1.23.3
+2023/05/01 08:49:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/01 08:49:04 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2023/05/01 08:49:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/01 08:49:04 [notice] 1#1: start worker processes
+2023/05/01 08:49:04 [notice] 1#1: start worker process 29
+2023/05/01 08:49:04 [notice] 1#1: start worker process 30
+2023/05/01 08:49:04 [notice] 1#1: start worker process 31
+2023/05/01 08:49:04 [notice] 1#1: start worker process 32
+2023/05/01 08:49:04 [notice] 1#1: start worker process 33
+2023/05/01 08:50:40 [error] 29#29: *1 auth request unexpected status: 400 while sending to client, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api/?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/01 08:50:40 [error] 29#29: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api/?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/01 08:53:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/01 08:53:28 [notice] 30#30: gracefully shutting down
+2023/05/01 08:53:28 [notice] 30#30: exiting
+2023/05/01 08:53:28 [notice] 29#29: gracefully shutting down
+2023/05/01 08:53:28 [notice] 29#29: exiting
+2023/05/01 08:53:28 [notice] 32#32: gracefully shutting down
+2023/05/01 08:53:28 [notice] 32#32: exiting
+2023/05/01 08:53:28 [notice] 33#33: gracefully shutting down
+2023/05/01 08:53:28 [notice] 33#33: exiting
+2023/05/01 08:53:28 [notice] 31#31: gracefully shutting down
+2023/05/01 08:53:28 [notice] 31#31: exiting
+2023/05/01 08:53:28 [notice] 30#30: exit
+2023/05/01 08:53:28 [notice] 29#29: exit
+2023/05/01 08:53:28 [notice] 32#32: exit
+2023/05/01 08:53:28 [notice] 33#33: exit
+2023/05/01 08:53:28 [notice] 31#31: exit
+2023/05/01 08:53:28 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/05/01 08:53:28 [notice] 1#1: worker process 29 exited with code 0
+2023/05/01 08:53:28 [notice] 1#1: worker process 32 exited with code 0
+2023/05/01 08:53:28 [notice] 1#1: worker process 33 exited with code 0
+2023/05/01 08:53:28 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/01 08:53:28 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/05/01 08:53:28 [notice] 1#1: worker process 30 exited with code 0
+2023/05/01 08:53:28 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/01 08:53:28 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/05/01 08:53:28 [notice] 1#1: worker process 31 exited with code 0
+2023/05/01 08:53:28 [notice] 1#1: exit
+2023/05/01 08:53:28 [notice] 1#1: using the "epoll" event method
+2023/05/01 08:53:28 [notice] 1#1: nginx/1.23.3
+2023/05/01 08:53:28 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/01 08:53:28 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2023/05/01 08:53:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/01 08:53:28 [notice] 1#1: start worker processes
+2023/05/01 08:53:28 [notice] 1#1: start worker process 28
+2023/05/01 08:53:28 [notice] 1#1: start worker process 29
+2023/05/01 08:53:28 [notice] 1#1: start worker process 30
+2023/05/01 08:53:28 [notice] 1#1: start worker process 31
+2023/05/01 08:53:28 [notice] 1#1: start worker process 32
+2023/05/01 09:08:22 [error] 31#31: *86 peer closed connection in SSL handshake while SSL handshaking to upstream, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", upstream: "https://66.135.3.204:443/b8b6?token=abcdd", host: "localhost"
+2023/05/01 09:08:22 [error] 31#31: *86 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", upstream: "https://66.135.3.204:443/b8b6?token=abcdd", host: "localhost"
+2023/05/01 09:08:35 [error] 32#32: *105 SSL_do_handshake() failed (SSL: error:1408F10B:SSL routines:ssl3_get_record:wrong version number) while SSL handshaking to upstream, client: 172.17.0.1, server: 192.168.1.101, request: "POST /api/v1/completions?token=abcdd HTTP/1.1", upstream: "https://66.135.3.204:443/b8b6v1/completions?token=abcdd", host: "localhost"
+2023/05/01 09:08:35 [error] 32#32: *105 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "POST /api/v1/completions?token=abcdd HTTP/1.1", upstream: "https://66.135.3.204:443/b8b6v1/completions?token=abcdd", host: "localhost"
+2023/05/01 09:09:11 [error] 31#31: *86 SSL_do_handshake() failed (SSL: error:1408F10B:SSL routines:ssl3_get_record:wrong version number) while SSL handshaking to upstream, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api/v1/completions?token=abcdd HTTP/1.1", upstream: "https://66.135.3.204:443/b8b6v1/completions?token=abcdd", host: "localhost"
+2023/05/01 09:09:11 [error] 31#31: *86 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api/v1/completions?token=abcdd HTTP/1.1", upstream: "https://66.135.3.204:443/b8b6v1/completions?token=abcdd", host: "localhost"
+2023/05/01 09:10:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/01 09:10:18 [notice] 28#28: gracefully shutting down
+2023/05/01 09:10:18 [notice] 31#31: gracefully shutting down
+2023/05/01 09:10:18 [notice] 29#29: gracefully shutting down
+2023/05/01 09:10:18 [notice] 29#29: exiting
+2023/05/01 09:10:18 [notice] 30#30: gracefully shutting down
+2023/05/01 09:10:18 [notice] 32#32: gracefully shutting down
+2023/05/01 09:10:18 [notice] 28#28: exiting
+2023/05/01 09:10:18 [notice] 31#31: exiting
+2023/05/01 09:10:18 [notice] 29#29: exit
+2023/05/01 09:10:18 [notice] 30#30: exiting
+2023/05/01 09:10:18 [notice] 30#30: exit
+2023/05/01 09:10:18 [notice] 32#32: exiting
+2023/05/01 09:10:18 [notice] 28#28: exit
+2023/05/01 09:10:18 [notice] 31#31: exit
+2023/05/01 09:10:18 [notice] 32#32: exit
+2023/05/01 09:10:18 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/05/01 09:10:18 [notice] 1#1: worker process 28 exited with code 0
+2023/05/01 09:10:18 [notice] 1#1: worker process 30 exited with code 0
+2023/05/01 09:10:18 [notice] 1#1: worker process 29 exited with code 0
+2023/05/01 09:10:18 [notice] 1#1: worker process 31 exited with code 0
+2023/05/01 09:10:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/01 09:10:18 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/05/01 09:10:18 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/05/01 09:10:18 [notice] 1#1: worker process 32 exited with code 0
+2023/05/01 09:10:18 [notice] 1#1: exit
+2023/05/01 09:10:19 [notice] 1#1: using the "epoll" event method
+2023/05/01 09:10:19 [notice] 1#1: nginx/1.23.3
+2023/05/01 09:10:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/01 09:10:19 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2023/05/01 09:10:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/01 09:10:19 [notice] 1#1: start worker processes
+2023/05/01 09:10:19 [notice] 1#1: start worker process 30
+2023/05/01 09:10:19 [notice] 1#1: start worker process 31
+2023/05/01 09:10:19 [notice] 1#1: start worker process 32
+2023/05/01 09:10:19 [notice] 1#1: start worker process 33
+2023/05/01 09:10:19 [notice] 1#1: start worker process 34
+2023/05/01 09:14:33 [error] 33#33: *6 SSL_do_handshake() failed (SSL: error:1408F10B:SSL routines:ssl3_get_record:wrong version number) while SSL handshaking to upstream, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", upstream: "https://66.135.3.204:443/b8b6/v1/completions?token=abcdd", host: "localhost"
+2023/05/01 09:14:33 [error] 33#33: *6 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", upstream: "https://66.135.3.204:443/b8b6/v1/completions?token=abcdd", host: "localhost"
+2023/05/01 09:17:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/01 09:17:06 [notice] 30#30: gracefully shutting down
+2023/05/01 09:17:06 [notice] 32#32: gracefully shutting down
+2023/05/01 09:17:06 [notice] 31#31: gracefully shutting down
+2023/05/01 09:17:06 [notice] 34#34: gracefully shutting down
+2023/05/01 09:17:06 [notice] 34#34: exiting
+2023/05/01 09:17:06 [notice] 33#33: gracefully shutting down
+2023/05/01 09:17:06 [notice] 30#30: exiting
+2023/05/01 09:17:06 [notice] 32#32: exiting
+2023/05/01 09:17:06 [notice] 31#31: exiting
+2023/05/01 09:17:06 [notice] 34#34: exit
+2023/05/01 09:17:06 [notice] 33#33: exiting
+2023/05/01 09:17:06 [notice] 30#30: exit
+2023/05/01 09:17:06 [notice] 32#32: exit
+2023/05/01 09:17:06 [notice] 31#31: exit
+2023/05/01 09:17:06 [notice] 33#33: exit
+2023/05/01 09:17:06 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/05/01 09:17:06 [notice] 1#1: worker process 30 exited with code 0
+2023/05/01 09:17:06 [notice] 1#1: worker process 34 exited with code 0
+2023/05/01 09:17:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/01 09:17:06 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/05/01 09:17:06 [notice] 1#1: worker process 31 exited with code 0
+2023/05/01 09:17:06 [notice] 1#1: worker process 32 exited with code 0
+2023/05/01 09:17:06 [notice] 1#1: worker process 33 exited with code 0
+2023/05/01 09:17:06 [notice] 1#1: exit
+2023/05/01 09:17:06 [notice] 1#1: using the "epoll" event method
+2023/05/01 09:17:06 [notice] 1#1: nginx/1.23.3
+2023/05/01 09:17:06 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/01 09:17:06 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2023/05/01 09:17:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/01 09:17:06 [notice] 1#1: start worker processes
+2023/05/01 09:17:06 [notice] 1#1: start worker process 29
+2023/05/01 09:17:06 [notice] 1#1: start worker process 30
+2023/05/01 09:17:06 [notice] 1#1: start worker process 31
+2023/05/01 09:17:06 [notice] 1#1: start worker process 32
+2023/05/01 09:17:06 [notice] 1#1: start worker process 33
+2023/05/01 09:18:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/01 09:18:34 [notice] 31#31: gracefully shutting down
+2023/05/01 09:18:34 [notice] 31#31: exiting
+2023/05/01 09:18:34 [notice] 29#29: gracefully shutting down
+2023/05/01 09:18:34 [notice] 29#29: exiting
+2023/05/01 09:18:34 [notice] 30#30: gracefully shutting down
+2023/05/01 09:18:34 [notice] 30#30: exiting
+2023/05/01 09:18:34 [notice] 32#32: gracefully shutting down
+2023/05/01 09:18:34 [notice] 33#33: gracefully shutting down
+2023/05/01 09:18:34 [notice] 31#31: exit
+2023/05/01 09:18:34 [notice] 29#29: exit
+2023/05/01 09:18:34 [notice] 30#30: exit
+2023/05/01 09:18:34 [notice] 32#32: exiting
+2023/05/01 09:18:34 [notice] 33#33: exiting
+2023/05/01 09:18:34 [notice] 32#32: exit
+2023/05/01 09:18:34 [notice] 33#33: exit
+2023/05/01 09:18:34 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/05/01 09:18:34 [notice] 1#1: worker process 29 exited with code 0
+2023/05/01 09:18:34 [notice] 1#1: worker process 31 exited with code 0
+2023/05/01 09:18:34 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/01 09:18:34 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/05/01 09:18:34 [notice] 1#1: worker process 30 exited with code 0
+2023/05/01 09:18:34 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/01 09:18:34 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/05/01 09:18:34 [notice] 1#1: worker process 32 exited with code 0
+2023/05/01 09:18:34 [notice] 1#1: worker process 33 exited with code 0
+2023/05/01 09:18:34 [notice] 1#1: exit
+2023/05/01 09:18:35 [notice] 1#1: using the "epoll" event method
+2023/05/01 09:18:35 [notice] 1#1: nginx/1.23.3
+2023/05/01 09:18:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/01 09:18:35 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2023/05/01 09:18:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/01 09:18:35 [notice] 1#1: start worker processes
+2023/05/01 09:18:35 [notice] 1#1: start worker process 29
+2023/05/01 09:18:35 [notice] 1#1: start worker process 30
+2023/05/01 09:18:35 [notice] 1#1: start worker process 31
+2023/05/01 09:18:35 [notice] 1#1: start worker process 32
+2023/05/01 09:18:35 [notice] 1#1: start worker process 33
+2023/05/01 09:18:56 [error] 30#30: *2 no resolver defined to resolve openai.xfg.im while sending to client, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/01 09:18:56 [error] 30#30: *2 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/01 09:18:58 [error] 30#30: *2 no resolver defined to resolve openai.xfg.im while sending to client, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/01 09:18:58 [error] 30#30: *2 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/01 09:18:59 [error] 30#30: *2 no resolver defined to resolve openai.xfg.im while sending to client, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/01 09:18:59 [error] 30#30: *2 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/01 09:18:59 [error] 30#30: *2 no resolver defined to resolve openai.xfg.im while sending to client, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/01 09:18:59 [error] 30#30: *2 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/01 09:19:01 [error] 30#30: *2 no resolver defined to resolve openai.xfg.im while sending to client, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/01 09:19:01 [error] 30#30: *2 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/01 09:19:05 [error] 30#30: *2 no resolver defined to resolve openai.xfg.im while sending to client, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/01 09:19:05 [error] 30#30: *2 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/01 09:20:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/01 09:20:50 [notice] 29#29: gracefully shutting down
+2023/05/01 09:20:50 [notice] 31#31: gracefully shutting down
+2023/05/01 09:20:50 [notice] 31#31: exiting
+2023/05/01 09:20:50 [notice] 32#32: gracefully shutting down
+2023/05/01 09:20:50 [notice] 32#32: exiting
+2023/05/01 09:20:50 [notice] 33#33: gracefully shutting down
+2023/05/01 09:20:50 [notice] 33#33: exiting
+2023/05/01 09:20:50 [notice] 30#30: gracefully shutting down
+2023/05/01 09:20:50 [notice] 29#29: exiting
+2023/05/01 09:20:50 [notice] 31#31: exit
+2023/05/01 09:20:50 [notice] 32#32: exit
+2023/05/01 09:20:50 [notice] 33#33: exit
+2023/05/01 09:20:50 [notice] 30#30: exiting
+2023/05/01 09:20:50 [notice] 29#29: exit
+2023/05/01 09:20:50 [notice] 30#30: exit
+2023/05/01 09:20:50 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/05/01 09:20:50 [notice] 1#1: worker process 32 exited with code 0
+2023/05/01 09:20:50 [notice] 1#1: worker process 33 exited with code 0
+2023/05/01 09:20:50 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/01 09:20:50 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/05/01 09:20:50 [notice] 1#1: worker process 29 exited with code 0
+2023/05/01 09:20:50 [notice] 1#1: worker process 31 exited with code 0
+2023/05/01 09:20:50 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/01 09:20:50 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/05/01 09:20:50 [notice] 1#1: worker process 30 exited with code 0
+2023/05/01 09:20:50 [notice] 1#1: exit
+2023/05/01 09:20:50 [notice] 1#1: using the "epoll" event method
+2023/05/01 09:20:50 [notice] 1#1: nginx/1.23.3
+2023/05/01 09:20:50 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/01 09:20:50 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2023/05/01 09:20:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/01 09:20:50 [notice] 1#1: start worker processes
+2023/05/01 09:20:50 [notice] 1#1: start worker process 29
+2023/05/01 09:20:50 [notice] 1#1: start worker process 30
+2023/05/01 09:20:50 [notice] 1#1: start worker process 31
+2023/05/01 09:20:50 [notice] 1#1: start worker process 32
+2023/05/01 09:20:50 [notice] 1#1: start worker process 33
+2023/05/01 09:51:26 [notice] 30#30: signal 15 (SIGTERM) received, exiting
+2023/05/01 09:51:27 [notice] 30#30: exiting
+2023/05/01 09:51:26 [notice] 32#32: signal 15 (SIGTERM) received, exiting
+2023/05/01 09:51:27 [notice] 32#32: exiting
+2023/05/01 09:51:26 [notice] 31#31: signal 15 (SIGTERM) received, exiting
+2023/05/01 09:51:27 [notice] 31#31: exiting
+2023/05/01 09:55:51 [notice] 1#1: using the "epoll" event method
+2023/05/01 09:55:51 [notice] 1#1: nginx/1.23.3
+2023/05/01 09:55:51 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/01 09:55:51 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2023/05/01 09:55:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/01 09:55:51 [notice] 1#1: start worker processes
+2023/05/01 09:55:51 [notice] 1#1: start worker process 30
+2023/05/01 09:55:51 [notice] 1#1: start worker process 31
+2023/05/01 09:55:51 [notice] 1#1: start worker process 32
+2023/05/01 09:55:51 [notice] 1#1: start worker process 33
+2023/05/01 09:55:51 [notice] 1#1: start worker process 34
+2023/05/01 09:57:34 [notice] 31#31: signal 15 (SIGTERM) received, exiting
+2023/05/01 09:58:09 [notice] 1#1: using the "epoll" event method
+2023/05/01 09:58:09 [notice] 1#1: nginx/1.23.3
+2023/05/01 09:58:09 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/01 09:58:09 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2023/05/01 09:58:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/01 09:58:09 [notice] 1#1: start worker processes
+2023/05/01 09:58:09 [notice] 1#1: start worker process 29
+2023/05/01 09:58:09 [notice] 1#1: start worker process 30
+2023/05/01 09:58:09 [notice] 1#1: start worker process 31
+2023/05/01 09:58:09 [notice] 1#1: start worker process 32
+2023/05/01 09:58:09 [notice] 1#1: start worker process 33
+2023/05/01 10:14:40 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2023/05/01 10:15:46 [notice] 1#1: using the "epoll" event method
+2023/05/01 10:15:46 [notice] 1#1: nginx/1.23.3
+2023/05/01 10:15:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/01 10:15:46 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2023/05/01 10:15:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/01 10:15:46 [notice] 1#1: start worker processes
+2023/05/01 10:15:46 [notice] 1#1: start worker process 30
+2023/05/01 10:15:46 [notice] 1#1: start worker process 31
+2023/05/01 10:15:46 [notice] 1#1: start worker process 32
+2023/05/01 10:15:46 [notice] 1#1: start worker process 33
+2023/05/01 10:15:46 [notice] 1#1: start worker process 34
+2023/05/02 00:49:49 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2023/05/02 01:08:38 [notice] 1#1: using the "epoll" event method
+2023/05/02 01:08:38 [notice] 1#1: nginx/1.23.4
+2023/05/02 01:08:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/02 01:08:38 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2023/05/02 01:08:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/02 01:08:38 [notice] 1#1: start worker processes
+2023/05/02 01:08:38 [notice] 1#1: start worker process 29
+2023/05/02 01:08:38 [notice] 1#1: start worker process 30
+2023/05/02 01:08:38 [notice] 1#1: start worker process 31
+2023/05/02 01:08:38 [notice] 1#1: start worker process 32
+2023/05/02 01:09:49 [error] 29#29: *1 auth request unexpected status: 400 while sending to client, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/02 01:09:49 [error] 29#29: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/02 01:50:49 [error] 31#31: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", subrequest: "/auth", upstream: "http://192.168.1.101:8080/verify?token=abcdd", host: "localhost"
+2023/05/02 01:50:49 [error] 31#31: *8 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", subrequest: "/50x.html", upstream: "http://192.168.1.101:8080/verify?token=abcdd", host: "localhost"
+2023/05/02 01:50:49 [error] 31#31: *8 auth request unexpected status: 404, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/02 01:50:49 [error] 31#31: *8 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api//?token=abcdd HTTP/1.1", host: "localhost"
+2023/05/02 01:55:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/02 01:55:13 [notice] 29#29: gracefully shutting down
+2023/05/02 01:55:13 [notice] 31#31: gracefully shutting down
+2023/05/02 01:55:13 [notice] 31#31: exiting
+2023/05/02 01:55:13 [notice] 30#30: gracefully shutting down
+2023/05/02 01:55:13 [notice] 30#30: exiting
+2023/05/02 01:55:13 [notice] 32#32: gracefully shutting down
+2023/05/02 01:55:13 [notice] 29#29: exiting
+2023/05/02 01:55:13 [notice] 31#31: exit
+2023/05/02 01:55:13 [notice] 30#30: exit
+2023/05/02 01:55:13 [notice] 32#32: exiting
+2023/05/02 01:55:13 [notice] 29#29: exit
+2023/05/02 01:55:13 [notice] 32#32: exit
+2023/05/02 01:55:13 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/05/02 01:55:13 [notice] 1#1: worker process 29 exited with code 0
+2023/05/02 01:55:13 [notice] 1#1: worker process 30 exited with code 0
+2023/05/02 01:55:13 [notice] 1#1: worker process 31 exited with code 0
+2023/05/02 01:55:13 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/02 01:55:13 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/05/02 01:55:13 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/05/02 01:55:13 [notice] 1#1: worker process 32 exited with code 0
+2023/05/02 01:55:13 [notice] 1#1: exit
+2023/05/02 01:55:13 [notice] 1#1: using the "epoll" event method
+2023/05/02 01:55:13 [notice] 1#1: nginx/1.23.4
+2023/05/02 01:55:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/02 01:55:13 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2023/05/02 01:55:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/02 01:55:13 [notice] 1#1: start worker processes
+2023/05/02 01:55:13 [notice] 1#1: start worker process 29
+2023/05/02 01:55:13 [notice] 1#1: start worker process 30
+2023/05/02 01:55:13 [notice] 1#1: start worker process 31
+2023/05/02 01:55:13 [notice] 1#1: start worker process 32
+2023/05/02 01:59:29 [error] 29#29: *1 auth request unexpected status: 400 while sending to client, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api/?token=succes HTTP/1.1", host: "localhost"
+2023/05/02 01:59:29 [error] 29#29: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api/?token=succes HTTP/1.1", host: "localhost"
+2023/05/02 02:00:21 [error] 30#30: *7 auth request unexpected status: 400 while sending to client, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api/?token=123 HTTP/1.1", host: "localhost"
+2023/05/02 02:00:21 [error] 30#30: *7 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api/?token=123 HTTP/1.1", host: "localhost"
+2023/05/02 02:10:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/02 02:10:16 [notice] 30#30: gracefully shutting down
+2023/05/02 02:10:16 [notice] 30#30: exiting
+2023/05/02 02:10:16 [notice] 31#31: gracefully shutting down
+2023/05/02 02:10:16 [notice] 29#29: gracefully shutting down
+2023/05/02 02:10:16 [notice] 29#29: exiting
+2023/05/02 02:10:16 [notice] 32#32: gracefully shutting down
+2023/05/02 02:10:16 [notice] 30#30: exit
+2023/05/02 02:10:16 [notice] 31#31: exiting
+2023/05/02 02:10:16 [notice] 29#29: exit
+2023/05/02 02:10:16 [notice] 32#32: exiting
+2023/05/02 02:10:16 [notice] 31#31: exit
+2023/05/02 02:10:16 [notice] 32#32: exit
+2023/05/02 02:10:16 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/05/02 02:10:16 [notice] 1#1: worker process 30 exited with code 0
+2023/05/02 02:10:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/02 02:10:16 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/05/02 02:10:16 [notice] 1#1: worker process 29 exited with code 0
+2023/05/02 02:10:16 [notice] 1#1: worker process 32 exited with code 0
+2023/05/02 02:10:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/02 02:10:16 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/05/02 02:10:16 [notice] 1#1: worker process 31 exited with code 0
+2023/05/02 02:10:16 [notice] 1#1: exit
+2023/05/02 02:10:17 [notice] 1#1: using the "epoll" event method
+2023/05/02 02:10:17 [notice] 1#1: nginx/1.23.4
+2023/05/02 02:10:17 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/02 02:10:17 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2023/05/02 02:10:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/02 02:10:17 [notice] 1#1: start worker processes
+2023/05/02 02:10:17 [notice] 1#1: start worker process 29
+2023/05/02 02:10:17 [notice] 1#1: start worker process 30
+2023/05/02 02:10:17 [notice] 1#1: start worker process 31
+2023/05/02 02:10:17 [notice] 1#1: start worker process 32
+2023/05/02 02:10:45 [error] 29#29: *1 auth request unexpected status: 400 while sending to client, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api/?token=123 HTTP/1.1", host: "localhost"
+2023/05/02 02:10:45 [error] 29#29: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api/?token=123 HTTP/1.1", host: "localhost"
+2023/05/02 02:10:47 [error] 30#30: *3 auth request unexpected status: 400 while sending to client, client: 172.17.0.1, server: 192.168.1.101, request: "GET /api/?token=123 HTTP/1.1", host: "localhost"
+2023/05/02 02:10:47 [error] 30#30: *3 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.1.101, request: "GET /api/?token=123 HTTP/1.1", host: "localhost"
