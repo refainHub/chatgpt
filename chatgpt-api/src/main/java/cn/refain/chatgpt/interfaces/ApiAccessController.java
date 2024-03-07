@@ -24,7 +24,9 @@ public class ApiAccessController {
     private Logger logger = LoggerFactory.getLogger(ApiAccessController.class);
 
     /**
-     * http://localhost:8080/authorize?username=xfg&password=123
+     * 1. 本地访问；http://localhost:8080/authorize?username=xfg&password=123
+     * 2. 云服务访问；http://api.xfg.im:8080/authorize?username=xfg&password=123
+     * 3. 内网穿透；在docs/natapp/natapp执行；通过获得的地址访问服务  http://xfg.nat300.top/authorize?username=xfg&password=123
      */
     @RequestMapping("/authorize")
     public ResponseEntity<Map<String, String>> authorize(String username, String password) {
@@ -38,7 +40,7 @@ public class ApiAccessController {
         JwtUtil jwtUtil = new JwtUtil();
         Map<String, Object> chaim = new HashMap<>();
         chaim.put("username", username);
-        String jwtToken = jwtUtil.encode(username, 5 * 60 * 1000, chaim);
+        String jwtToken = jwtUtil.encode(username, 60 * 60 * 1000, chaim);
         map.put("msg", "授权成功");
         map.put("token", jwtToken);
         // 返回token码
@@ -54,9 +56,14 @@ public class ApiAccessController {
         return ResponseEntity.status(HttpStatus.OK).body("verify success!");
     }
 
+    /**
+     * http://qj497z.natappfree.cc/success
+     * @return
+     */
     @RequestMapping("/success")
     public String success(){
         return "test success by xfg";
     }
+
 
 }

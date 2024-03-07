@@ -1624,3 +1624,62 @@
 2024/02/28 06:47:05 [notice] 1#1: start worker process 45
 2024/02/28 06:47:05 [notice] 1#1: start worker process 46
 2024/02/28 06:47:05 [notice] 1#1: start worker process 47
+2024/02/28 17:03:05 [error] 32#32: *10 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.3.202, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/02/28 17:03:05 [error] 32#32: *10 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 172.17.0.1, server: 192.168.3.202, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/02/28 18:04:30 [notice] 30#30: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 30#30: exiting
+2024/02/28 18:04:30 [notice] 33#33: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 29#29: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 34#34: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 42#42: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 28#28: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 32#32: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 44#44: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 43#43: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 46#46: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 35#35: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 47#47: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 45#45: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 45#45: exiting
+2024/02/28 18:04:30 [notice] 31#31: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 40#40: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 37#37: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 38#38: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 41#41: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 36#36: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 39#39: signal 15 (SIGTERM) received, exiting
+2024/02/28 18:04:30 [notice] 33#33: exiting
+2024/02/28 18:04:30 [notice] 29#29: exiting
+2024/02/28 18:04:30 [notice] 30#30: exit
+2024/02/28 18:04:30 [notice] 34#34: exiting
+2024/02/28 18:04:30 [notice] 42#42: exiting
+2024/02/28 18:04:30 [notice] 28#28: exiting
+2024/02/28 18:04:30 [notice] 32#32: exiting
+2024/02/28 18:04:30 [notice] 44#44: exiting
+2024/02/28 18:04:30 [notice] 43#43: exiting
+2024/02/28 18:04:30 [notice] 46#46: exiting
+2024/02/28 18:04:30 [notice] 35#35: exiting
+2024/02/28 18:04:30 [notice] 47#47: exiting
+2024/02/28 18:04:30 [notice] 45#45: exit
+2024/02/28 18:04:30 [notice] 31#31: exiting
+2024/02/28 18:04:30 [notice] 40#40: exiting
+2024/02/28 18:04:30 [notice] 37#37: exiting
+2024/02/28 18:04:30 [notice] 38#38: exiting
+2024/02/28 18:04:30 [notice] 37#37: exit
+2024/02/28 18:04:30 [notice] 41#41: exiting
+2024/02/28 18:04:30 [notice] 36#36: exiting
+2024/02/28 18:04:30 [notice] 39#39: exiting
+2024/02/28 18:04:30 [notice] 33#33: exit
+2024/02/28 18:04:30 [notice] 29#29: exit
+2024/02/28 18:04:30 [notice] 34#34: exit
+2024/02/28 18:04:30 [notice] 42#42: exit
+2024/02/28 18:04:30 [notice] 32#32: exit
+2024/02/28 18:04:30 [notice] 28#28: exit
+2024/02/28 18:04:30 [notice] 44#44: exit
+2024/02/28 18:04:30 [notice] 43#43: exit
+2024/02/28 18:04:30 [notice] 46#46: exit
+2024/02/28 18:04:30 [notice] 35#35: exit
+2024/02/28 18:04:30 [notice] 47#47: exit
+2024/02/28 18:04:30 [notice] 31#31: exit
+2024/02/28 18:04:30 [notice] 40#40: exit
