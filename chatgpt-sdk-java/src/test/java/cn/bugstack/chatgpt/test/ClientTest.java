@@ -19,10 +19,8 @@ import java.util.Collections;
 import java.util.Scanner;
 
 /**
- * @author 小傅哥，微信：fustack
+ * @author refain
  * @description 客户端输入测试
- * @github https://github.com/fuzhengwei
- * @Copyright 公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
  */
 @Slf4j
 public class ClientTest {
@@ -33,7 +31,7 @@ public class ClientTest {
         // 1.2 三方公司 apiHost https://pro-share-aws-api.zcyai.com/ - 需要找我获得 Key
         Configuration configuration = new Configuration();
         configuration.setApiHost("https://pro-share-aws-api.zcyai.com/");
-        configuration.setApiKey("sk-b0A0eSKTNxgBqrHv7aAa0808EdB849C89499D928648bD416");
+        configuration.setApiKey("sk-lFAkwdXFIFI93gvF4183917b5b42491e864b538862118692");
 
         // 2. 会话工厂
         OpenAiSessionFactory factory = new DefaultOpenAiSessionFactory(configuration);

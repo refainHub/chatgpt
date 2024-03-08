@@ -39,7 +39,7 @@ import java.util.Scanner;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @author 小傅哥，微信：fustack
+ * @author refain
  * @description 单元测试
  * @github <a href="https://github.com/fuzhengwei">https://github.com/fuzhengwei</a>
  * @Copyright 公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
@@ -80,7 +80,7 @@ public class ApiTest {
 
         // 2. 用户配置 【可选参数，支持不同渠道的 apiHost、apiKey】- 方便给每个用户都分配了自己的key，用于售卖场景
         String apiHost = "https://pro-share-aws-api.zcyai.com/";
-        String apiKey = "sk-b0A0eSKTNxgBqrHv7aAa0808EdB849C89499D928648bD416";
+        String apiKey = "sk-lFAkwdXFIFI93gvF4183917b5b42491e864b538862118692";
 
         // 3. 发起请求
         EventSource eventSource = openAiSession.chatCompletions(apiHost, apiKey, chatCompletion, new EventSourceListener() {

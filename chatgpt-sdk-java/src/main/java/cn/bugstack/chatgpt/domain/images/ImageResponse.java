@@ -6,10 +6,8 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @author 小傅哥，微信：fustack
+ * @author refain
  * @description 图片响应
- * @github https://github.com/fuzhengwei
- * @Copyright 公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
  */
 @Data
 public class ImageResponse implements Serializable {

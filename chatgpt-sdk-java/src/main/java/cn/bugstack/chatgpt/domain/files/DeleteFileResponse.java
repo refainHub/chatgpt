@@ -5,15 +5,13 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * @author 小傅哥，微信：fustack
+ * @author refain
  * @description 删除文件应答
  * {
  *   "id": "file-XjGxS3KTG0uNmNOK362iJua3",
  *   "object": "file",
  *   "deleted": true
  * }
- * @github https://github.com/fuzhengwei
- * @Copyright 公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
  */
 @Data
 public class DeleteFileResponse implements Serializable {
