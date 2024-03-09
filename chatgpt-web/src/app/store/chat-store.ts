@@ -4,6 +4,7 @@ import {Dialog, Message, MessageDirection, MessageRole, MessageType, SessionConf
 import {GptVersion} from "@/app/constants";
 import {nanoid} from "nanoid";
 import {completions} from "@/apis";
+import { useAccessStore } from "./access";
 
 interface ChatStore {
     id: number;
@@ -193,6 +194,13 @@ export const userChatStore = create<ChatStore>()(
 
                             controller.enqueue(value);
                             const text = decoder.decode(value);
+
+                            // 权限校验
+                            if (text === "0003") {
+                                controller.close();
+                                useAccessStore.getState().goToLogin();
+                            }
+
                             botMessage.content += text;
                             get().updateCurrentSession((session) => {
                                 session.messages = session.messages.concat();
